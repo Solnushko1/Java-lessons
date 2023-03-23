@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Введите строку");
-        Scanner scanner1 = new Scanner(System.in);
-        String userText = scanner1.nextLine();
+        Scanner scan = new Scanner(System.in);
+        String userText = scan.nextLine();
         System.out.println("Введите букву");
-        String userLetter = scanner1.nextLine();
+        String userLetter = scan.nextLine();
         int count = 0;
         char userLetters = userLetter.charAt(0);
         for (int i = 0; i < userText.length(); i++) {
